@@ -1,0 +1,101 @@
+body{
+   background: snow;
+   text-align: justify;
+   overflow: hidden;
+ }
+
+ #about{
+   margin-top: 12%;
+ }
+
+/* about me title */
+ #about h2{
+   font-family: 'impact', fantasy;
+   color: #98ff98;
+   font-style: bold;
+   letter-spacing: 1.5px;
+   font-size: 60px;
+   margin-bottom: 12px;
+   margin-top: 12px;
+ }
+
+ /* back button */
+ #about h1{
+   font-family: 'monospace';
+   color: #5c544d;
+   font-size: 20px;
+   margin-bottom: 10px;
+   margin-top: -15px;
+ }
+
+ #about a{
+    text-decoration: none;
+    color: black;
+ }
+
+/* paragraph */
+  #about p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    color:black;
+  }
+
+/* contact me */
+ #about .Contact{
+   margin-top:30px;
+   margin-bottom: 20px;
+ }
+
+/* social media */
+ #about .Social{
+   padding-left: 0px;
+ }
+
+ #about .Social li{
+   display: inline-block;
+ }
+
+ #about .Social li a i{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   line-height: 50px;
+   text-align: center;
+   border: 1.5px solid #5c544d;
+   margin-right: 10px;
+   font-size: 22px;
+   color: #5c544d;
+   transition: all .3s;
+ }
+
+ #about .Social li a i:hover{
+   color: white;
+   background: #5c544d;
+   border-color: #5c544d;
+
+ }
+
+ #about .img .me{
+   position: left;
+   bottom: 161px;
+   top: 12px;
+   left: -2px;
+   width: 70%;
+
+ }
+
+ .btn{
+   border-radius: 0;
+   border:2px solid black;
+   padding: 10px 20px;
+   background-color: transparent;
+   color: black;
+ }
+
+ .btn:hover{
+   border-radius: 0;
+   border:2px solid #d6c6b2;
+   padding: 10px 20px;
+   background-color: #d6c6b2;
+   color: white;
+ }
